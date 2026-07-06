@@ -284,7 +284,6 @@ open_to:
   
 <!--QUOTE-->🚀 *Every manual step is a future incident waiting to happen.*<!--END_QUOTE-->
 
-*"Infrastructure that isn't documented is infrastructure you don't actually understand."*
 
 <br/>
 
