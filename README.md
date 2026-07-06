@@ -288,7 +288,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Automate everything that can be automated. — Gene Kim*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Every manual step is a future incident waiting to happen.*<!--END_QUOTE-->
 
 *"Infrastructure that isn't documented is infrastructure you don't actually understand."*
 
