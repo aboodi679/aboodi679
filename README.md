@@ -9,7 +9,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Provisioning+production+AWS+infra+from+scratch;ECS+Fargate+%7C+RDS+%7C+ElastiCache+%7C+Lambda+%7C+SQS;GitHub+Actions+CI%2FCD+with+OIDC+%E2%80%94+zero+long-lived+credentials;Software+Engineering+Graduate+%E2%80%94+Class+of+2026;Open+to+Cloud+%2F+DevOps+roles+in+Europe+%26+Pakistan" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Provisioning+production+AWS+infra+from+scratch;ECS+Fargate+%7C+RDS+%7C+ElastiCache+%7C+Lambda+%7C+SQS;GitHub+Actions+CI%2FCD+with+OIDC+%E2%80%94+zero+long-lived+credentials;Software+Engineering+Graduate+%E2%80%94+Class+of+2026;Open+to+Cloud+%2F+DevOps+roles+%26+Pakistan" alt="Typing SVG" />
 
 </div>
 
@@ -52,8 +52,6 @@ I'm a Software Engineering graduate who learns by shipping real, production-shap
 My focus is **cloud infrastructure and DevOps engineering**  IaC, container orchestration, observability, and secure automated delivery.
 
 ```yaml
-role:    Cloud / DevOps Engineer
-stack:   AWS · Terraform · ECS Fargate · Docker · GitHub Actions
 mindset: "Automate it. Monitor it. Document why."
 goal:    Solutions Architect
 ```
