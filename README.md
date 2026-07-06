@@ -1,274 +1,329 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:2d1b4e,100:4c1d95&height=220&section=header&text=Muhammad%20Abdullah&fontSize=48&fontColor=e9d5ff&animation=fadeIn&fontAlignY=38&desc=Cloud%20%26%20DevOps%20Engineer%20%7C%20AWS%20%7C%20Terraform%20%7C%20CI%2FCD&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,30:1e0a3c,70:3b1278,100:6d28d9&height=280&section=header&text=Muhammad%20Abdullah&fontSize=52&fontColor=ede9fe&animation=fadeIn&fontAlignY=40&desc=Cloud%20Engineer%20%7C%20DevOps%20%7C%20AWS%20%7C%20Terraform%20%7C%20ECS%20Fargate&descAlignY=58&descSize=17&descColor=c4b5fd" width="100%"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+production-grade+AWS+infrastructure;Terraform+%7C+ECS+Fargate+%7C+CI%2FCD+with+OIDC;Software+Engineering+Graduate+%2C+2026;Targeting+Cloud%2FDevOps+roles+%E2%80%94+Europe+%26+Pakistan" alt="Typing SVG" />
-</a>
+</div>
 
-<br/>
+<div align="center">
 
-![Degree](https://img.shields.io/badge/BS_Software_Engineering-University_of_Lahore-4c1d95?style=flat-square&logo=googlescholar&logoColor=e9d5ff)
-![GPA](https://img.shields.io/badge/GPA-3.47%2F4.00-6d28d9?style=flat-square)
-![Location](https://img.shields.io/badge/Sargodha,_Pakistan-📍-3730a3?style=flat-square)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/aboodi679)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6d28d9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammadabdullah-b887272a5)
-[![Email](https://img.shields.io/badge/Email-4c1d95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aaboodi679@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-1e1b4b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aboodi679)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=aboodi679&style=flat-square&color=8b5cf6&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/aboodi679?style=flat-square&color=6d28d9&label=Followers)
-![Stars](https://img.shields.io/github/stars/aboodi679?style=flat-square&color=4c1d95&label=Stars)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Provisioning+production+AWS+infra+from+scratch;ECS+Fargate+%7C+RDS+%7C+ElastiCache+%7C+Lambda+%7C+SQS;GitHub+Actions+CI%2FCD+with+OIDC+%E2%80%94+zero+long-lived+credentials;Software+Engineering+Graduate+%E2%80%94+Class+of+2026;Open+to+Cloud+%2F+DevOps+roles+in+Europe+%26+Pakistan" alt="Typing SVG" />
 
 </div>
 
 <br/>
 
-## 🟣 About Me
+<div align="center">
 
-I'm a Software Engineering graduate who learns by shipping real, production-shaped infrastructure rather than tutorials. Over the past few months I designed and deployed two multi-service AWS platforms from a blank Terraform state, wiring together event-driven pipelines, containerized services, and zero-downtime CI/CD — the same patterns used in real production environments.
+![Degree](https://img.shields.io/badge/BS%20Software%20Engineering-University%20of%20Lahore-6d28d9?style=flat-square&logoColor=ede9fe&labelColor=1e0a3c)
+&nbsp;
+![Location](https://img.shields.io/badge/Sargodha%2C%20Pakistan-4c1d95?style=flat-square&labelColor=1e0a3c)
+&nbsp;
+![Status](https://img.shields.io/badge/Open%20To%20Work-Available%20Immediately-059669?style=flat-square&labelColor=022c22)
 
-My core focus is **cloud infrastructure and DevOps engineering**: Infrastructure as Code, container orchestration, observability, and secure automated delivery. I also carry a foundation in **applied NLP** (fine-tuning transformer models on legal text classification) and full-stack basics from earlier academic projects, but infrastructure is where I go deep.
+</div>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Abdullah-6d28d9?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e0a3c)](https://linkedin.com/in/muhammadabdullah-b887272a5)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-aboodi679-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0524)](https://github.com/aboodi679)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-aaboodi679%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e0a3c)](mailto:aaboodi679@gmail.com)
+
+</div>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=aboodi679&style=flat-square&color=7c3aed&label=Profile+Views)
+&nbsp;
+![GitHub followers](https://img.shields.io/github/followers/aboodi679?label=Followers&style=flat-square&color=6d28d9)
+&nbsp;
+![GitHub stars](https://img.shields.io/github/stars/aboodi679?label=Stars&style=flat-square&color=4c1d95)
+
+</div>
+
+---
+
+## `$ whoami`
+
+<table>
+<tr>
+<td valign="top" width="60%">
+
+I'm a Software Engineering graduate who learns by shipping real, production-shaped infrastructure — not tutorials. Over the past year I built two multi-service AWS platforms from a blank Terraform state, wiring together event-driven pipelines, containerized microservices, and zero-downtime CI/CD.
+
+My focus is **cloud infrastructure and DevOps engineering** — IaC, container orchestration, observability, and secure automated delivery.
 
 ```yaml
-role: Cloud / DevOps Engineer (Early Career)
-focus: [AWS, Terraform, ECS Fargate, CI/CD, Observability]
-mindset: "Automate it, monitor it, document why you built it that way"
+role:    Cloud / DevOps Engineer
+stack:   AWS · Terraform · ECS Fargate · Docker · GitHub Actions
+mindset: "Automate it. Monitor it. Document why."
+goal:    Solutions Architect
 ```
 
-**🎯 Open To:**
-- Cloud Support / Cloud Engineer roles (AWS-focused)
-- DevOps Engineer / Platform Engineer positions
-- Opportunities in **Pakistan**, **Ireland**, **Germany**, and the **Netherlands**
-- Long-term goal: **Solutions Architect**
+![Open To Work](https://img.shields.io/badge/Open%20To-Cloud%20%7C%20DevOps%20%7C%20Cloud%20Support-6d28d9?style=flat-square&labelColor=1e0a3c)
+&nbsp;
+![Willing To](https://img.shields.io/badge/Available-Relocate%20%7C%20Remote-4c1d95?style=flat-square&labelColor=0f0524)
 
-<br/>
+</td>
+<td valign="top" width="40%">
 
-## 🟣 Tech Stack
+<img src="https://raw.githubusercontent.com/aboodi679/aboodi679/main/assets/pixel-dev.svg" width="100%"/>
+
+
+</td>
+</tr>
+</table>
+
+---
+
+## `$ cat tech-stack.yaml`
 
 <div align="center">
 
 **Languages**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,bash,linux" />
+
+![Python](https://img.shields.io/badge/Python-1e0a3c?style=for-the-badge&logo=python&logoColor=a78bfa)
+![Bash](https://img.shields.io/badge/Bash-1e0a3c?style=for-the-badge&logo=gnubash&logoColor=a78bfa)
+![Java](https://img.shields.io/badge/Java-1e0a3c?style=for-the-badge&logo=openjdk&logoColor=a78bfa)
+![C++](https://img.shields.io/badge/C++-1e0a3c?style=for-the-badge&logo=cplusplus&logoColor=a78bfa)
+![SQL](https://img.shields.io/badge/SQL-1e0a3c?style=for-the-badge&logo=postgresql&logoColor=a78bfa)
+
+**Cloud & Infrastructure**
+
+![AWS](https://img.shields.io/badge/Amazon%20AWS-1e0a3c?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Terraform](https://img.shields.io/badge/Terraform-1e0a3c?style=for-the-badge&logo=terraform&logoColor=7c3aed)
+![Docker](https://img.shields.io/badge/Docker-1e0a3c?style=for-the-badge&logo=docker&logoColor=a78bfa)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-1e0a3c?style=for-the-badge&logo=githubactions&logoColor=a78bfa)
+
+**AWS Services**
+
+![ECS](https://img.shields.io/badge/ECS%20Fargate-1e0a3c?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Lambda](https://img.shields.io/badge/Lambda-1e0a3c?style=for-the-badge&logo=awslambda&logoColor=FF9900)
+![RDS](https://img.shields.io/badge/RDS%20PostgreSQL-1e0a3c?style=for-the-badge&logo=postgresql&logoColor=FF9900)
+![SQS](https://img.shields.io/badge/SQS-1e0a3c?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-1e0a3c?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![ElastiCache](https://img.shields.io/badge/ElastiCache%20Redis-1e0a3c?style=for-the-badge&logo=redis&logoColor=FF9900)
+![CloudFront](https://img.shields.io/badge/CloudFront%20%2B%20WAF-1e0a3c?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![X-Ray](https://img.shields.io/badge/X--Ray-1e0a3c?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
 
 **Backend & Databases**
-<br/>
-<img src="https://skillicons.dev/icons?i=flask,fastapi,postgres,dynamodb,redis" />
 
-**Cloud, DevOps & Tooling**
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,terraform,docker,githubactions,git,githubactions,vscode" />
-
-</div>
-
-<br/>
-
-## 🟣 AI / ML Exposure
-
-<div align="center">
-
-| Domain | Proficiency | Details |
-|---|---|---|
-| NLP / Transformers | ●●●○○ | Fine-tuned Legal-BERT on LEDGAR & Supreme Court datasets for legal text classification, ~84–88% accuracy |
-| LLM-Assisted Engineering | ●●●●○ | Used Claude (Amazon Bedrock & Claude Code) as an active pair-engineer across infrastructure builds |
+![FastAPI](https://img.shields.io/badge/FastAPI-1e0a3c?style=for-the-badge&logo=fastapi&logoColor=a78bfa)
+![Flask](https://img.shields.io/badge/Flask-1e0a3c?style=for-the-badge&logo=flask&logoColor=a78bfa)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1e0a3c?style=for-the-badge&logo=postgresql&logoColor=a78bfa)
+![Redis](https://img.shields.io/badge/Redis-1e0a3c?style=for-the-badge&logo=redis&logoColor=a78bfa)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-1e0a3c?style=for-the-badge&logo=amazondynamodb&logoColor=FF9900)
 
 </div>
 
-<br/>
+---
 
-## 🟣 Featured Projects
+## `$ ls -la ./projects`
 
 <details open>
-<summary><b>🔹 StatusNest — Multi-Tenant AWS Status Page & Monitoring Platform</b></summary>
+<summary><b>🟣 StatusNest — Multi-Tenant AWS Status Page & Monitoring SaaS &nbsp;|&nbsp; 2026</b></summary>
+
 <br/>
 
-A production-grade, multi-tenant SaaS status page platform built end-to-end on AWS with full event-driven monitoring and zero manual infrastructure steps.
+> A production-grade, multi-tenant SaaS platform where businesses monitor their services and display a public status page. Built end-to-end on AWS — 100% Terraform IaC, zero manual console interaction.
 
-| Category | Detail |
+| | |
 |---|---|
-| **Stack** | ECS Fargate, RDS PostgreSQL, ElastiCache Redis, Lambda + SQS, CloudFront + WAF, Terraform, GitHub Actions (OIDC) |
-| **Scale** | Multi-tenant architecture, 3 containerized FastAPI microservices |
-| **Performance** | Incident detection reduced to under 60 seconds via EventBridge → Lambda → SQS pipeline |
-| **Security** | OIDC-based CI/CD (zero long-lived AWS credentials), WAF-protected CloudFront edge |
-| **Impact** | 100% Terraform-driven IaC, 8 documented Architecture Decision Records, ~$94/month operating cost |
-| **Repository** | [StatusNest-SAD-Documentation](https://github.com/aboodi679) |
+| **What it does** | Businesses register services; StatusNest continuously monitors health and displays live UP/DOWN status on a public-facing page in real time |
+| **Microservices** | 3 FastAPI microservices on ECS Fargate — API, Worker, Frontend |
+| **Data layer** | RDS PostgreSQL · ElastiCache Redis |
+| **Monitoring pipeline** | EventBridge → Lambda → SQS — continuous health polling, incident detection under 60 seconds |
+| **Edge & security** | CloudFront CDN · WAF · S3 static hosting |
+| **CI/CD** | GitHub Actions with OIDC — zero long-lived credentials, Docker build → ECR push → ECS rolling deploy on every commit |
+| **Observability** | CloudWatch dashboards + alarms · X-Ray distributed tracing |
+| **IaC** | 4 Terraform repos: `statusnest-frontend` · `statusnest-api` · `statusnest-worker` · `statusnest-infra` |
+| **Docs** | 8 Architecture Decision Records · Full Solution Architecture Document · ~$94/month |
 
-Built across a series of focused sessions covering VPC/networking, ECS task orchestration, an SSM bastion for private RDS access, X-Ray instrumentation, and an SQS-driven Lambda processor — with every infrastructure decision documented rather than left implicit.
+[![Repo](https://img.shields.io/badge/View%20Repository-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/aboodi679)
 
 </details>
+
+---
 
 <details>
-<summary><b>🔹 OrderFlow — Event-Driven Microservices Platform on AWS</b></summary>
+<summary><b>🟣 OrderFlow — AWS Event-Driven Microservices Platform &nbsp;|&nbsp; 2026</b></summary>
+
 <br/>
 
-An event-driven microservices platform designed to close specific resume gaps: container orchestration, real CI/CD, and production observability.
+> An order management system built as 3 independent microservices communicating asynchronously — provisioned 100% via Terraform with full CI/CD and observability.
 
-| Category | Detail |
+| | |
 |---|---|
-| **Stack** | 3 Flask microservices on ECS Fargate, ALB path-based routing, EventBridge + SQS + SNS, CloudWatch, X-Ray, Terraform |
-| **Scale** | 3 independently deployable services behind a single ALB |
-| **Performance** | Deployment time cut by 80% (15+ min manual → under 3 min) |
-| **Security** | GitHub Actions CI/CD via OIDC — no static AWS credentials in the pipeline |
-| **Impact** | 100% infrastructure reproducibility via modular Terraform state |
-| **Repository** | [OrderFlow](https://github.com/aboodi679) |
+| **What it does** | End-to-end order lifecycle: placement → inventory deduction → customer notification — fully decoupled and async |
+| **Services** | Order Service · Inventory Service · Notification Service — 3 independent Flask microservices |
+| **Routing** | ALB with path-based routing |
+| **Messaging** | EventBridge → SQS → SNS fan-out pipeline |
+| **CI/CD** | GitHub Actions with OIDC — Docker build → ECR push → ECS rolling deploy |
+| **Observability** | CloudWatch dashboards + alarms · X-Ray distributed tracing |
+| **Performance** | Deployment time cut from 15+ minutes (manual) to under 3 minutes |
+| **IaC** | 100% Terraform — modular state management |
+
+[![Repo](https://img.shields.io/badge/View%20Repository-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/aboodi679)
 
 </details>
+
+---
 
 <details>
-<summary><b>🔹 AI Hitman — Cloud-Integrated Game Backend (Final Year Project)</b></summary>
+<summary><b>🟣 AI Hitman — Cloud-Integrated Game Backend &nbsp;|&nbsp; 2025-2026</b></summary>
+
 <br/>
 
-A Unity game's cloud backend, built and operated solo while a partner handled game logic — covering serverless deployment end-to-end.
+> Final year project — a Unity zombie survival game with a fully serverless AWS cloud backend. Sole owner of cloud design, provisioning, deployment, and operations.
 
-| Category | Detail |
+| | |
 |---|---|
-| **Stack** | Flask REST API deployed serverlessly via Zappa, AWS Lambda, DynamoDB, S3, API Gateway, Terraform + boto3 |
-| **Scale** | 4 live API Gateway endpoints backing real-time game clients |
-| **Performance** | Serverless, auto-scaling backend with no server management |
-| **Security** | IAM least-privilege roles provisioned entirely via IaC |
-| **Impact** | Scored 90/100 with Top 8 Runner-Up recognition at university exhibition |
-| **Repository** | [ai-hitman-backend](https://github.com/aboodi679/ai-hitman-backend) |
+| **What it does** | Unity zombie survival game; enemy AI uses hybrid FSM + Reinforcement Learning (ML-Agents PPO); cloud backend tracks session stats and hosts the ML model |
+| **Backend** | Flask REST API deployed serverlessly via Zappa on Lambda — 4 live endpoints through API Gateway |
+| **Data & storage** | DynamoDB for session statistics · S3 for ML model hosting |
+| **IaC** | Fully provisioned via Terraform and boto3 — Lambda · DynamoDB · S3 · API Gateway · IAM |
+| **Result** | 42/50 · Top 8 Runner-Up at university exhibition |
+
+[![Repo](https://img.shields.io/badge/View%20Repository-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/aboodi679/ai-hitman-backend)
 
 </details>
 
-<br/>
+---
 
-## 🟣 Experience
-
-**DevOps Track — Independent Project-Based Training**
-`Self-Directed` | 2025 – 2026
-
-Completed a structured internship-style assessment covering the full DevOps toolchain, applied against a real multi-service codebase rather than isolated exercises.
-
-- Containerized services with Docker and orchestrated deployment with HashiCorp Nomad
-- Built GitHub Actions CI/CD pipelines from scratch, including automated testing gates
-- Implemented centralized logging with Grafana Loki
-- Practiced Git workflows (branching, PR review, conflict resolution) under production-like constraints
-
-`Docker` `GitHub Actions` `Nomad` `Grafana Loki` `Git`
-
-<br/>
-
-## 🟣 Achievements
+## `$ cat achievements.json`
 
 <div align="center">
 
 | Recognition | Details |
-|---|---|
-| 🏆 Top 8 Runner-Up | AI Hitman FYP scored 90/100 at university exhibition |
-| 🎓 Class Representative | Elected liaison for 60+ students across 4 academic years |
-| 📊 GPA 3.47/4.00 | BS Software Engineering, University of Lahore |
-| 🧾 8 ADRs Documented | StatusNest — full architectural decision trail across a production build |
+|:-----------:|:--------|
+| 🏆 Top 8 Runner-Up | AI Hitman FYP scored 42/50 at University of Lahore exhibition |
+| 🎓 Class Representative | Elected liaison for 60+ students across 4 academic years (2022-2026) |
+| 📊 GPA 3.47 / 4.00 | BS Software Engineering — University of Lahore |
+| 🧾 8 Architecture Decision Records | Full architectural decision trail on StatusNest production build |
+| ⚡ 80% Faster Deployments | OrderFlow — 15+ min manual deploy → under 3 min automated |
+| 🔍 Sub-60s Incident Detection | StatusNest event-driven monitoring pipeline on AWS |
 
 </div>
 
-<br/>
+---
 
-## 🟣 Certifications
+## `$ cat certifications.txt`
+
+<div align="center">
 
 **Anthropic**
 
-![Claude Bedrock](https://img.shields.io/badge/Claude_with_Amazon_Bedrock_%26_Claude_Code_in_Action-Jun_2026-4c1d95?style=flat-square&logo=anthropic&logoColor=white)
+![Claude Bedrock](https://img.shields.io/badge/Claude%20with%20Amazon%20Bedrock%20%26%20Claude%20Code%20in%20Action-Jun%202026-6d28d9?style=flat-square&logo=anthropic&logoColor=white&labelColor=1e0a3c)
 
 **Amazon Web Services**
 
-![AWS Forage](https://img.shields.io/badge/AWS_Solutions_Architecture_Job_Simulation-Forage_2025-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![AWS Educate](https://img.shields.io/badge/Introduction_to_Cloud_101-AWS_Educate_2025-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS Forage](https://img.shields.io/badge/Solutions%20Architecture%20Job%20Simulation-Forage%20%C2%B7%20Oct%202025-FF9900?style=flat-square&logo=amazonaws&logoColor=white&labelColor=1a1a1a)
+&nbsp;
+![AWS Educate](https://img.shields.io/badge/Introduction%20to%20Cloud%20101-AWS%20Educate%20%C2%B7%20Sep%202025-FF9900?style=flat-square&logo=amazonaws&logoColor=white&labelColor=1a1a1a)
 
 **Project Management**
 
-![Agile HP LIFE](https://img.shields.io/badge/Agile_Project_Management-HP_LIFE_2025-6d28d9?style=flat-square&logo=hp&logoColor=white)
-
-<br/>
-
-## 🟣 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=aboodi679&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=8b5cf6&text_color=c4b5fd" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aboodi679&theme=radical&hide_border=true&background=0d1117&ring=8b5cf6&fire=a78bfa&currStreakLabel=c4b5fd" width="48%" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aboodi679&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd" width="55%" />
+![Agile](https://img.shields.io/badge/Agile%20Project%20Management-HP%20LIFE%20%C2%B7%20Jul%202025-4c1d95?style=flat-square&logoColor=white&labelColor=1e0a3c)
 
 </div>
 
-<br/>
+---
 
-## 🟣 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=aboodi679&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" />
-
-</div>
-
-<br/>
-
-## 🟣 Contribution Activity
+## `$ htop` — GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aboodi679&theme=react-dark&bg_color=0d1117&color=a78bfa&line=8b5cf6&point=e9d5ff&hide_border=true" width="100%" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=aboodi679&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&count_private=true&include_all_commits=true" onerror="this.style.display='none'"/>
+&nbsp;
+<img height="170em" src="https://streak-stats.demolab.com/?user=aboodi679&theme=midnight-purple&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=c4b5fd&sideLabels=c4b5fd&dates=6d28d9"/>
 
 </div>
-
-<br/>
-
-## 🟣 Contribution Snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/aboodi679/aboodi679/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aboodi679&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c4b5fd&langs_count=8" width="40%"/>
 
 </div>
 
-<br/>
+---
 
-## 🟣 Current Focus
+## `$ ls ./trophies`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=aboodi679&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7"/>
+
+</div>
+
+---
+
+## `$ tail -f contribution.log`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aboodi679&theme=react-dark&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ede9fe&hide_border=true&area=true&area_color=6d28d9" width="100%"/>
+
+</div>
+
+---
+
+## `$ cat /proc/snake`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/aboodi679/aboodi679/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+
+</div>
+
+---
+
+## `$ vim focus.yaml`
 
 ```yaml
+# Current focus — July 2026
+
 learning:
-  - Advanced Terraform module design & remote state strategies
-  - AWS Solutions Architect–level networking & security patterns
+  - AWS Solutions Architect-level networking, security, cost optimisation
+  - Advanced Terraform module design and remote state strategies
 
 building:
-  - Packaging StatusNest into a polished, recruiter-facing case study
+  - StatusNest case study — polishing docs for recruiters
 
 exploring:
-  - EU cloud/DevOps job market (Ireland, Germany, Netherlands)
-  - AWS Graduate Cloud Support & early-career Solutions Architect tracks
+  - International cloud/DevOps job market
+  - AWS Graduate Cloud Support Associate track
 
 open_to:
-  - Cloud Engineer / DevOps Engineer roles
-  - Relocation to Europe or remote-first teams
+  - Cloud Engineer / DevOps Engineer / Cloud Support roles
+  - Relocation or remote-first positions
+  - Long-term path: Solutions Architect
 ```
 
-<br/>
+---
 
-## 🟣 Connect
+## `$ ping -c 1 connect`
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/aaboodi679@gmail.com-4c1d95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aaboodi679@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/Muhammad_Abdullah-6d28d9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammadabdullah-b887272a5)
-[![GitHub](https://img.shields.io/badge/aboodi679-1e1b4b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aboodi679)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-6d28d9?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1e0a3c)](https://linkedin.com/in/muhammadabdullah-b887272a5)
+&nbsp;
+[![Email](https://img.shields.io/badge/Gmail-aaboodi679%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e0a3c)](mailto:aaboodi679@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-aboodi679-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0524)](https://github.com/aboodi679)
+&nbsp;
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20309%20657%207911-059669?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=022c22)](https://wa.me/923096577911)
 
 </div>
 
-<br/>
+---
 
 <div align="center">
 
 *"Infrastructure that isn't documented is infrastructure you don't actually understand."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,50:2d1b4e,100:0f0524&height=120&section=footer" width="100%"/>
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,30:4c1d95,70:2d1b69,100:0f0524&height=140&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
