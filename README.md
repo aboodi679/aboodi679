@@ -46,10 +46,6 @@
 
 ## `$ whoami`
 
-<table>
-<tr>
-<td valign="top" width="60%">
-
 I'm a Software Engineering graduate who learns by shipping real, production-shaped infrastructure — not tutorials. Over the past year I built two multi-service AWS platforms from a blank Terraform state, wiring together event-driven pipelines, containerized microservices, and zero-downtime CI/CD.
 
 My focus is **cloud infrastructure and DevOps engineering** — IaC, container orchestration, observability, and secure automated delivery.
@@ -61,19 +57,13 @@ mindset: "Automate it. Monitor it. Document why."
 goal:    Solutions Architect
 ```
 
+<div align="center">
+
 ![Open To Work](https://img.shields.io/badge/Open%20To-Cloud%20%7C%20DevOps%20%7C%20Cloud%20Support-6d28d9?style=flat-square&labelColor=1e0a3c)
 &nbsp;
 ![Willing To](https://img.shields.io/badge/Available-Relocate%20%7C%20Remote-4c1d95?style=flat-square&labelColor=0f0524)
 
-</td>
-<td valign="top" width="40%">
-
-<img src="https://raw.githubusercontent.com/aboodi679/aboodi679/main/assets/pixel-dev.svg" width="100%"/>
-
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -234,7 +224,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=aboodi679&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&count_private=true&include_all_commits=true" onerror="this.style.display='none'"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=aboodi679&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c4b5fd&count_private=true&include_all_commits=true"/>
 &nbsp;
 <img height="170em" src="https://streak-stats.demolab.com/?user=aboodi679&theme=midnight-purple&hide_border=true&background=0d1117&ring=7c3aed&fire=a78bfa&currStreakLabel=c4b5fd&sideLabels=c4b5fd&dates=6d28d9"/>
 
