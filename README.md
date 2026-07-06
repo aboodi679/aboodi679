@@ -42,13 +42,11 @@
 
 </div>
 
----
+## whoami
 
-## `$ whoami`
+I'm a Software Engineering graduate who learns by shipping real, production-shaped infrastructure not tutorials. Over the past year I built two multi-service AWS platforms from a blank Terraform state, wiring together event-driven pipelines, containerized microservices, and zero-downtime CI/CD.
 
-I'm a Software Engineering graduate who learns by shipping real, production-shaped infrastructure — not tutorials. Over the past year I built two multi-service AWS platforms from a blank Terraform state, wiring together event-driven pipelines, containerized microservices, and zero-downtime CI/CD.
-
-My focus is **cloud infrastructure and DevOps engineering** — IaC, container orchestration, observability, and secure automated delivery.
+My focus is **cloud infrastructure and DevOps engineering**  IaC, container orchestration, observability, and secure automated delivery.
 
 ```yaml
 role:    Cloud / DevOps Engineer
@@ -65,9 +63,7 @@ goal:    Solutions Architect
 
 </div>
 
----
-
-## `$ cat tech-stack.yaml`
+## Tech Stack
 
 <div align="center">
 
@@ -107,81 +103,73 @@ goal:    Solutions Architect
 
 </div>
 
----
-
-## `$ ls -la ./projects`
+## Projects
 
 <details open>
 <summary><b>🟣 StatusNest — Multi-Tenant AWS Status Page & Monitoring SaaS &nbsp;|&nbsp; 2026</b></summary>
 
 <br/>
 
-> A production-grade, multi-tenant SaaS platform where businesses monitor their services and display a public status page. Built end-to-end on AWS — 100% Terraform IaC, zero manual console interaction.
+> A production-grade, multi-tenant SaaS platform where businesses monitor their services and display a public status page. Built end-to-end on AWS  100% Terraform IaC, zero manual console interaction.
 
 | | |
 |---|---|
 | **What it does** | Businesses register services; StatusNest continuously monitors health and displays live UP/DOWN status on a public-facing page in real time |
 | **Microservices** | 3 FastAPI microservices on ECS Fargate — API, Worker, Frontend |
 | **Data layer** | RDS PostgreSQL · ElastiCache Redis |
-| **Monitoring pipeline** | EventBridge → Lambda → SQS — continuous health polling, incident detection under 60 seconds |
+| **Monitoring pipeline** | EventBridge → Lambda → SQS  continuous health polling, incident detection under 60 seconds |
 | **Edge & security** | CloudFront CDN · WAF · S3 static hosting |
-| **CI/CD** | GitHub Actions with OIDC — zero long-lived credentials, Docker build → ECR push → ECS rolling deploy on every commit |
+| **CI/CD** | GitHub Actions with OIDC  zero long-lived credentials, Docker build → ECR push → ECS rolling deploy on every commit |
 | **Observability** | CloudWatch dashboards + alarms · X-Ray distributed tracing |
 | **IaC** | 4 Terraform repos: `statusnest-frontend` · `statusnest-api` · `statusnest-worker` · `statusnest-infra` |
-| **Docs** | 8 Architecture Decision Records · Full Solution Architecture Document · ~$94/month |
+| **Docs** | 8 Architecture Decision Records · Full Solution Architecture Document |
 
 [![Repo](https://img.shields.io/badge/View%20Repository-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/aboodi679)
 
 </details>
 
----
-
 <details>
-<summary><b>🟣 OrderFlow — AWS Event-Driven Microservices Platform &nbsp;|&nbsp; 2026</b></summary>
+<summary><b>🟣 OrderFlow  AWS Event-Driven Microservices Platform &nbsp;|&nbsp; 2026</b></summary>
 
 <br/>
 
-> An order management system built as 3 independent microservices communicating asynchronously — provisioned 100% via Terraform with full CI/CD and observability.
+> An order management system built as 3 independent microservices communicating asynchronously  provisioned 100% via Terraform with full CI/CD and observability.
 
 | | |
 |---|---|
-| **What it does** | End-to-end order lifecycle: placement → inventory deduction → customer notification — fully decoupled and async |
-| **Services** | Order Service · Inventory Service · Notification Service — 3 independent Flask microservices |
+| **What it does** | End-to-end order lifecycle: placement → inventory deduction → customer notification  fully decoupled and async |
+| **Services** | Order Service · Inventory Service · Notification Service  3 independent Flask microservices |
 | **Routing** | ALB with path-based routing |
 | **Messaging** | EventBridge → SQS → SNS fan-out pipeline |
-| **CI/CD** | GitHub Actions with OIDC — Docker build → ECR push → ECS rolling deploy |
+| **CI/CD** | GitHub Actions with OIDC  Docker build → ECR push → ECS rolling deploy |
 | **Observability** | CloudWatch dashboards + alarms · X-Ray distributed tracing |
 | **Performance** | Deployment time cut from 15+ minutes (manual) to under 3 minutes |
-| **IaC** | 100% Terraform — modular state management |
+| **IaC** | 100% Terraform  modular state management |
 
 [![Repo](https://img.shields.io/badge/View%20Repository-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/aboodi679)
 
 </details>
 
----
-
 <details>
-<summary><b>🟣 AI Hitman — Cloud-Integrated Game Backend &nbsp;|&nbsp; 2025-2026</b></summary>
+<summary><b>🟣 AI Hitman - Cloud-Integrated Game Backend &nbsp;|&nbsp; 2025-2026</b></summary>
 
 <br/>
 
-> Final year project — a Unity zombie survival game with a fully serverless AWS cloud backend. Sole owner of cloud design, provisioning, deployment, and operations.
+> Final year project  a Unity zombie survival game with a fully serverless AWS cloud backend. Sole owner of cloud design, provisioning, deployment, and operations.
 
 | | |
 |---|---|
 | **What it does** | Unity zombie survival game; enemy AI uses hybrid FSM + Reinforcement Learning (ML-Agents PPO); cloud backend tracks session stats and hosts the ML model |
-| **Backend** | Flask REST API deployed serverlessly via Zappa on Lambda — 4 live endpoints through API Gateway |
+| **Backend** | Flask REST API deployed serverlessly via Zappa on Lambda  4 live endpoints through API Gateway |
 | **Data & storage** | DynamoDB for session statistics · S3 for ML model hosting |
-| **IaC** | Fully provisioned via Terraform and boto3 — Lambda · DynamoDB · S3 · API Gateway · IAM |
+| **IaC** | Fully provisioned via Terraform and boto3  Lambda · DynamoDB · S3 · API Gateway · IAM |
 | **Result** | 42/50 · Top 8 Runner-Up at university exhibition |
 
 [![Repo](https://img.shields.io/badge/View%20Repository-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/aboodi679/ai-hitman-backend)
 
 </details>
 
----
-
-## `$ cat achievements.json`
+## Achievements
 
 <div align="center">
 
@@ -189,16 +177,14 @@ goal:    Solutions Architect
 |:-----------:|:--------|
 | 🏆 Top 8 Runner-Up | AI Hitman FYP scored 42/50 at University of Lahore exhibition |
 | 🎓 Class Representative | Elected liaison for 60+ students across 4 academic years (2022-2026) |
-| 📊 GPA 3.47 / 4.00 | BS Software Engineering — University of Lahore |
+| 📊 GPA 3.47 / 4.00 | BS Software Engineering  University of Lahore |
 | 🧾 8 Architecture Decision Records | Full architectural decision trail on StatusNest production build |
-| ⚡ 80% Faster Deployments | OrderFlow — 15+ min manual deploy → under 3 min automated |
+| ⚡ 80% Faster Deployments | OrderFlow - 15+ min manual deploy → under 3 min automated |
 | 🔍 Sub-60s Incident Detection | StatusNest event-driven monitoring pipeline on AWS |
 
 </div>
 
----
-
-## `$ cat certifications.txt`
+## Certifications
 
 <div align="center">
 
@@ -218,9 +204,7 @@ goal:    Solutions Architect
 
 </div>
 
----
-
-## `$ htop` — GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
@@ -236,19 +220,7 @@ goal:    Solutions Architect
 
 </div>
 
----
-
-## `$ ls ./trophies`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=aboodi679&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7"/>
-
-</div>
-
----
-
-## `$ tail -f contribution.log`
+## Contribution Graph
 
 <div align="center">
 
@@ -256,9 +228,7 @@ goal:    Solutions Architect
 
 </div>
 
----
-
-## `$ cat /proc/snake`
+## Snake
 
 <div align="center">
 
@@ -266,19 +236,17 @@ goal:    Solutions Architect
 
 </div>
 
----
-
-## `$ vim focus.yaml`
+## Current Focus
 
 ```yaml
-# Current focus — July 2026
+# July 2026
 
 learning:
   - AWS Solutions Architect-level networking, security, cost optimisation
   - Advanced Terraform module design and remote state strategies
 
 building:
-  - StatusNest case study — polishing docs for recruiters
+  - StatusNest case study polishing docs for recruiters
 
 exploring:
   - International cloud/DevOps job market
@@ -286,13 +254,10 @@ exploring:
 
 open_to:
   - Cloud Engineer / DevOps Engineer / Cloud Support roles
-  - Relocation or remote-first positions
   - Long-term path: Solutions Architect
 ```
 
----
-
-## `$ ping -c 1 connect`
+## Connect
 
 <div align="center">
 
@@ -301,12 +266,8 @@ open_to:
 [![Email](https://img.shields.io/badge/Gmail-aaboodi679%40gmail.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e0a3c)](mailto:aaboodi679@gmail.com)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-aboodi679-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0524)](https://github.com/aboodi679)
-&nbsp;
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B92%20309%20657%207911-059669?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=022c22)](https://wa.me/923096577911)
 
 </div>
-
----
 
 <div align="center">
 
