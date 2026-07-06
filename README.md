@@ -42,7 +42,7 @@
 
 </div>
 
-## whoami
+## Who am I
 
 I'm a Software Engineering graduate who learns by shipping real, production-shaped infrastructure not tutorials. Over the past year I built two multi-service AWS platforms from a blank Terraform state, wiring together event-driven pipelines, containerized microservices, and zero-downtime CI/CD.
 
