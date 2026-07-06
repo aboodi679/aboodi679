@@ -1,0 +1,52 @@
+name: Update DevOps Quote
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Pick and inject daily quote
+        run: |
+          QUOTES=(
+            "Automate everything that can be automated. — Gene Kim"
+            "Infrastructure as code is the foundation of DevOps. — Kief Morris"
+            "You build it, you run it. — Werner Vogels, AWS CTO"
+            "The cloud is just someone else's computer — secure it like it's yours."
+            "Move fast, but don't break prod. — Every SRE ever"
+            "Terraform state is sacred. Back it up. — Unknown DevOps Engineer"
+            "Monitoring is not optional. It is your eyes in production."
+            "Every manual step is a future incident waiting to happen."
+            "CI/CD is not a luxury. It is the minimum bar for shipping safely."
+            "Design for failure. Everything will fail at some point. — AWS Well-Architected"
+            "Immutable infrastructure eliminates the fear of change."
+            "If it is not in version control, it does not exist."
+            "The best runbook is one that runs itself."
+            "Observability is knowing what your system is doing without asking it directly."
+            "Zero trust. Least privilege. Always. — Cloud Security Principle"
+          )
+
+          # Pick quote based on day of year so it changes daily
+          DAY=$(date +%j)
+          INDEX=$((10#$DAY % ${#QUOTES[@]}))
+          QUOTE="${QUOTES[$INDEX]}"
+
+          # Replace the quote line in README
+          sed -i "s|<!--QUOTE-->.*<!--END_QUOTE-->|<!--QUOTE-->🚀 *${QUOTE}*<!--END_QUOTE-->|g" README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update daily DevOps quote"
+          git push
