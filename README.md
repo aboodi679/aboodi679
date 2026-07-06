@@ -1,5 +1,6 @@
-<div align="center">
 
+<div align="center">
+<!--MOON-->🌑 New Moon<!--END_MOON-->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,30:1e0a3c,70:3b1278,100:6d28d9&height=280&section=header&text=Muhammad%20Abdullah&fontSize=52&fontColor=ede9fe&animation=fadeIn&fontAlignY=40&desc=Cloud%20Engineer%20%7C%20DevOps%20%7C%20AWS%20%7C%20Terraform%20%7C%20ECS%20Fargate&descAlignY=58&descSize=17&descColor=c4b5fd" width="100%"/>
 
 </div>
@@ -54,6 +55,14 @@ stack:   AWS · Terraform · ECS Fargate · Docker · GitHub Actions
 mindset: "Automate it. Monitor it. Document why."
 goal:    Solutions Architect
 ```
+
+## Terminal
+
+<div align="center">
+
+<img src="./profile-terminal.svg" width="100%"/>
+
+</div>
 
 <div align="center">
 
@@ -228,6 +237,14 @@ goal:    Solutions Architect
 
 </div>
 
+## 3D Contribution Graph
+
+<div align="center">
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+
+</div>
+
 ## Snake
 
 <div align="center">
@@ -270,6 +287,8 @@ open_to:
 </div>
 
 <div align="center">
+  
+<!--QUOTE-->🚀 *Automate everything that can be automated. — Gene Kim*<!--END_QUOTE-->
 
 *"Infrastructure that isn't documented is infrastructure you don't actually understand."*
 
