@@ -1,0 +1,77 @@
+name: Update Moon Phase
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # runs every day at midnight
+  workflow_dispatch:
+
+jobs:
+  update-moon:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Calculate moon phase and update README
+        run: |
+          python3 << 'EOF'
+          import datetime
+          import re
+
+          def get_moon_phase():
+              now = datetime.datetime.utcnow()
+              # Known new moon reference date
+              known_new_moon = datetime.datetime(2000, 1, 6, 18, 14)
+              lunar_cycle = 29.53058867
+
+              diff = now - known_new_moon
+              days = diff.days + diff.seconds / 86400
+              phase_days = days % lunar_cycle
+
+              if phase_days < 1.85:
+                  return "🌑", "New Moon"
+              elif phase_days < 5.54:
+                  return "🌒", "Waxing Crescent"
+              elif phase_days < 9.22:
+                  return "🌓", "First Quarter"
+              elif phase_days < 12.91:
+                  return "🌔", "Waxing Gibbous"
+              elif phase_days < 16.61:
+                  return "🌕", "Full Moon"
+              elif phase_days < 20.30:
+                  return "🌖", "Waning Gibbous"
+              elif phase_days < 23.99:
+                  return "🌗", "Last Quarter"
+              elif phase_days < 27.68:
+                  return "🌘", "Waning Crescent"
+              else:
+                  return "🌑", "New Moon"
+
+          emoji, name = get_moon_phase()
+          moon_str = f"<!--MOON-->{emoji} {name}<!--END_MOON-->"
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_content = re.sub(
+              r"<!--MOON-->.*?<!--END_MOON-->",
+              moon_str,
+              content
+          )
+
+          with open("README.md", "w") as f:
+              f.write(new_content)
+
+          print(f"Moon phase updated: {emoji} {name}")
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update moon phase"
+          git push

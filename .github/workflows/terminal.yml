@@ -1,0 +1,127 @@
+name: Generate Terminal Portfolio
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # runs every Sunday at midnight
+  workflow_dispatch:
+  push:
+    paths:
+      - 'terminal-data.json'  # re-generates if you update your info
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install svg-term-cli
+        run: npm install -g svg-term-cli
+
+      - name: Install ttyrec
+        run: sudo apt-get install -y ttyrec expect
+
+      - name: Create terminal script
+        run: |
+          cat > terminal_session.exp << 'EOF'
+          #!/usr/bin/expect -f
+          set timeout 1
+
+          spawn bash --norc --noprofile
+          expect "$ "
+
+          send "clear\r"
+          expect "$ "
+
+          send "echo ''\r"
+          expect "$ "
+
+          send "echo '  👨‍💻  Muhammad Abdullah — Cloud / DevOps Engineer'\r"
+          expect "$ "
+
+          send "echo ''\r"
+          expect "$ "
+
+          send "cat skills.txt\r"
+          expect "$ "
+          after 500
+
+          send "echo '  ☁️  AWS  |  🏗️  Terraform  |  🐳  Docker  |  ⚙️  GitHub Actions'\r"
+          expect "$ "
+
+          send "echo '  🚀  ECS Fargate  |  λ  Lambda  |  🗄️  RDS  |  📨  SQS'\r"
+          expect "$ "
+
+          send "echo ''\r"
+          expect "$ "
+
+          send "cat projects.txt\r"
+          expect "$ "
+          after 500
+
+          send "echo '  🟣  StatusNest   — Multi-Tenant AWS Monitoring SaaS   (2026)'\r"
+          expect "$ "
+
+          send "echo '  🟣  OrderFlow    — Event-Driven Microservices Platform (2026)'\r"
+          expect "$ "
+
+          send "echo '  🟣  AI Hitman    — Serverless Cloud Game Backend        (2025)'\r"
+          expect "$ "
+
+          send "echo ''\r"
+          expect "$ "
+
+          send "cat contact.txt\r"
+          expect "$ "
+          after 500
+
+          send "echo '  📧  aaboodi679@gmail.com'\r"
+          expect "$ "
+
+          send "echo '  💼  linkedin.com/in/muhammadabdullah-b887272a5'\r"
+          expect "$ "
+
+          send "echo '  🐙  github.com/aboodi679'\r"
+          expect "$ "
+
+          send "echo ''\r"
+          expect "$ "
+
+          send "echo '  Open to Cloud / DevOps / Cloud Support roles — Available Immediately'\r"
+          expect "$ "
+
+          send "echo ''\r"
+          expect "$ "
+
+          after 2000
+          EOF
+          chmod +x terminal_session.exp
+
+      - name: Record terminal session
+        run: |
+          ttyrec -e "expect terminal_session.exp" terminal.rec
+
+      - name: Convert to SVG
+        run: |
+          svg-term --in terminal.rec --out profile-terminal.svg \
+            --window \
+            --width 80 \
+            --height 30 \
+            --term xterm \
+            --profile Dracula
+
+      - name: Push SVG to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-terminal.svg
+          git diff --cached --quiet || git commit -m "chore: update terminal portfolio"
+          git push
