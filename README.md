@@ -1,6 +1,6 @@
 
 <div align="center">
-<!--MOON-->🌑 New Moon<!--END_MOON-->
+<!--MOON-->🌗 Last Quarter<!--END_MOON-->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,30:1e0a3c,70:3b1278,100:6d28d9&height=280&section=header&text=Muhammad%20Abdullah&fontSize=52&fontColor=ede9fe&animation=fadeIn&fontAlignY=40&desc=Cloud%20Engineer%20%7C%20DevOps%20%7C%20AWS%20%7C%20Terraform%20%7C%20ECS%20Fargate&descAlignY=58&descSize=17&descColor=c4b5fd" width="100%"/>
 
 </div>
