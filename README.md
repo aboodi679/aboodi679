@@ -1,6 +1,8 @@
-
+<div align="left">
+  <!--MOON-->🌗 Last Quarter<!--END_MOON-->
+  </div>
 <div align="center">
-<!--MOON-->🌗 Last Quarter<!--END_MOON-->
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,30:1e0a3c,70:3b1278,100:6d28d9&height=280&section=header&text=Muhammad%20Abdullah&fontSize=52&fontColor=ede9fe&animation=fadeIn&fontAlignY=40&desc=Cloud%20Engineer%20%7C%20DevOps%20%7C%20AWS%20%7C%20Terraform%20%7C%20ECS%20Fargate&descAlignY=58&descSize=17&descColor=c4b5fd" width="100%"/>
 
 </div>
@@ -61,14 +63,6 @@ goal:    Solutions Architect
 <div align="center">
 
 <img src="./profile-terminal.svg" width="100%"/>
-
-</div>
-
-<div align="center">
-
-![Open To Work](https://img.shields.io/badge/Open%20To-Cloud%20%7C%20DevOps%20%7C%20Cloud%20Support-6d28d9?style=flat-square&labelColor=1e0a3c)
-&nbsp;
-![Willing To](https://img.shields.io/badge/Available-Relocate%20%7C%20Remote-4c1d95?style=flat-square&labelColor=0f0524)
 
 </div>
 
