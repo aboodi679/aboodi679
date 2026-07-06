@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'terminal-data.json'  # re-generates if you update your info
+      - 'terminal-data.json'
 
 jobs:
   generate:
@@ -26,97 +26,63 @@ jobs:
       - name: Install svg-term-cli
         run: npm install -g svg-term-cli
 
-      - name: Install ttyrec
-        run: sudo apt-get install -y ttyrec expect
-
-      - name: Create terminal script
+      - name: Create asciicast file manually
         run: |
-          cat > terminal_session.exp << 'EOF'
-          #!/usr/bin/expect -f
-          set timeout 1
+          python3 << 'EOF'
+          import json
+          import time
 
-          spawn bash --norc --noprofile
-          expect "$ "
+          header = {
+            "version": 2,
+            "width": 80,
+            "height": 24,
+            "timestamp": 1700000000,
+            "title": "Muhammad Abdullah — Cloud / DevOps Engineer"
+          }
 
-          send "clear\r"
-          expect "$ "
+          events = [
+            [0.5,  "o", "\r\n"],
+            [0.8,  "o", "  \u001b[35m👨\u200d💻  Muhammad Abdullah\u001b[0m\r\n"],
+            [1.0,  "o", "  \u001b[36mCloud / DevOps Engineer — Open to Work\u001b[0m\r\n"],
+            [1.2,  "o", "\r\n"],
+            [1.5,  "o", "\u001b[33m$ \u001b[0mcat skills.txt\r\n"],
+            [2.0,  "o", "\r\n"],
+            [2.1,  "o", "  ☁️  AWS        🏗️  Terraform      🐳  Docker\r\n"],
+            [2.3,  "o", "  ⚙️  GitHub Actions            🚀  ECS Fargate\r\n"],
+            [2.5,  "o", "  λ  Lambda     🗄️  RDS PostgreSQL  📨  SQS\r\n"],
+            [2.7,  "o", "\r\n"],
+            [3.0,  "o", "\u001b[33m$ \u001b[0mcat projects.txt\r\n"],
+            [3.5,  "o", "\r\n"],
+            [3.6,  "o", "  \u001b[35m🟣  StatusNest\u001b[0m   — Multi-Tenant AWS Monitoring SaaS   (2026)\r\n"],
+            [3.8,  "o", "  \u001b[35m🟣  OrderFlow\u001b[0m    — Event-Driven Microservices Platform (2026)\r\n"],
+            [4.0,  "o", "  \u001b[35m🟣  AI Hitman\u001b[0m    — Serverless Cloud Game Backend        (2025)\r\n"],
+            [4.2,  "o", "\r\n"],
+            [4.5,  "o", "\u001b[33m$ \u001b[0mcat contact.txt\r\n"],
+            [5.0,  "o", "\r\n"],
+            [5.1,  "o", "  📧  aaboodi679@gmail.com\r\n"],
+            [5.3,  "o", "  💼  linkedin.com/in/muhammadabdullah-b887272a5\r\n"],
+            [5.5,  "o", "  🐙  github.com/aboodi679\r\n"],
+            [5.7,  "o", "\r\n"],
+            [6.0,  "o", "  \u001b[32mOpen to Cloud / DevOps roles — Available Immediately\u001b[0m\r\n"],
+            [6.2,  "o", "\r\n"],
+            [6.5,  "o", "\u001b[33m$ \u001b[0m"],
+          ]
 
-          send "echo ''\r"
-          expect "$ "
+          with open("terminal.cast", "w") as f:
+            f.write(json.dumps(header) + "\n")
+            for event in events:
+              f.write(json.dumps(event) + "\n")
 
-          send "echo '  👨‍💻  Muhammad Abdullah — Cloud / DevOps Engineer'\r"
-          expect "$ "
-
-          send "echo ''\r"
-          expect "$ "
-
-          send "cat skills.txt\r"
-          expect "$ "
-          after 500
-
-          send "echo '  ☁️  AWS  |  🏗️  Terraform  |  🐳  Docker  |  ⚙️  GitHub Actions'\r"
-          expect "$ "
-
-          send "echo '  🚀  ECS Fargate  |  λ  Lambda  |  🗄️  RDS  |  📨  SQS'\r"
-          expect "$ "
-
-          send "echo ''\r"
-          expect "$ "
-
-          send "cat projects.txt\r"
-          expect "$ "
-          after 500
-
-          send "echo '  🟣  StatusNest   — Multi-Tenant AWS Monitoring SaaS   (2026)'\r"
-          expect "$ "
-
-          send "echo '  🟣  OrderFlow    — Event-Driven Microservices Platform (2026)'\r"
-          expect "$ "
-
-          send "echo '  🟣  AI Hitman    — Serverless Cloud Game Backend        (2025)'\r"
-          expect "$ "
-
-          send "echo ''\r"
-          expect "$ "
-
-          send "cat contact.txt\r"
-          expect "$ "
-          after 500
-
-          send "echo '  📧  aaboodi679@gmail.com'\r"
-          expect "$ "
-
-          send "echo '  💼  linkedin.com/in/muhammadabdullah-b887272a5'\r"
-          expect "$ "
-
-          send "echo '  🐙  github.com/aboodi679'\r"
-          expect "$ "
-
-          send "echo ''\r"
-          expect "$ "
-
-          send "echo '  Open to Cloud / DevOps / Cloud Support roles — Available Immediately'\r"
-          expect "$ "
-
-          send "echo ''\r"
-          expect "$ "
-
-          after 2000
+          print("asciicast file created successfully")
           EOF
-          chmod +x terminal_session.exp
-
-      - name: Record terminal session
-        run: |
-          ttyrec -e "expect terminal_session.exp" terminal.rec
 
       - name: Convert to SVG
         run: |
-          svg-term --in terminal.rec --out profile-terminal.svg \
+          svg-term --in terminal.cast --out profile-terminal.svg \
             --window \
             --width 80 \
-            --height 30 \
-            --term xterm \
-            --profile Dracula
+            --height 24 \
+            --term xterm
 
       - name: Push SVG to repo
         run: |
