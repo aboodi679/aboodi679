@@ -15,19 +15,24 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Create settings file
+        run: |
+          cat > settings.json << 'EOF'
+          {
+            "username": "aboodi679",
+            "background": "#0d1117",
+            "foreground": "#a78bfa",
+            "season": "summer",
+            "type": "GitHubNormal"
+          }
+          EOF
+
       - name: Generate 3D contribution graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: aboodi679
-          SETTING_JSON: |
-            {
-              "username": "aboodi679",
-              "background": "#0d1117",
-              "foreground": "#a78bfa",
-              "season": "summer",
-              "type": "GitHubNormal"
-            }
+          SETTING_JSON: settings.json
 
       - name: Push to repo
         run: |
