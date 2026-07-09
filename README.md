@@ -280,7 +280,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Design for failure. Everything will fail at some point. — AWS Well-Architected*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Immutable infrastructure eliminates the fear of change.*<!--END_QUOTE-->
 
 
 <br/>
