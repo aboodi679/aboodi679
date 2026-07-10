@@ -1,5 +1,5 @@
 <div align="left">
-  <!--MOON-->🌗 Last Quarter<!--END_MOON-->
+  <!--MOON-->🌘 Waning Crescent<!--END_MOON-->
   </div>
 <div align="center">
 
