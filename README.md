@@ -280,7 +280,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Immutable infrastructure eliminates the fear of change.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *If it is not in version control, it does not exist.*<!--END_QUOTE-->
 
 
 <br/>
