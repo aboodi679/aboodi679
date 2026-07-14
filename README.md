@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Zero trust. Least privilege. Always. — Cloud Security Principle*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Automate everything that can be automated. — Gene Kim*<!--END_QUOTE-->
 
 
 <br/>
