@@ -1,5 +1,5 @@
 <div align="left">
-  <!--MOON-->🌑 New Moon<!--END_MOON-->
+  <!--MOON-->🌒 Waxing Crescent<!--END_MOON-->
   </div>
 <div align="center">
 
