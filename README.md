@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *You build it, you run it. — Werner Vogels, AWS CTO*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *The cloud is just someone else's computer — secure it like it's yours.*<!--END_QUOTE-->
 
 
 <br/>
