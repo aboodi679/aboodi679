@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Terraform state is sacred. Back it up. — Unknown DevOps Engineer*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Monitoring is not optional. It is your eyes in production.*<!--END_QUOTE-->
 
 
 <br/>
