@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Monitoring is not optional. It is your eyes in production.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Every manual step is a future incident waiting to happen.*<!--END_QUOTE-->
 
 
 <br/>
