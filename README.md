@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *CI/CD is not a luxury. It is the minimum bar for shipping safely.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Design for failure. Everything will fail at some point. — AWS Well-Architected*<!--END_QUOTE-->
 
 
 <br/>
