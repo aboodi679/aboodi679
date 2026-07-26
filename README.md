@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *If it is not in version control, it does not exist.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *The best runbook is one that runs itself.*<!--END_QUOTE-->
 
 
 <br/>
