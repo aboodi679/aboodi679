@@ -272,7 +272,7 @@ open_to:
 
 <div align="center">
   
-<!--QUOTE-->🚀 *Automate everything that can be automated. — Gene Kim*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Infrastructure as code is the foundation of DevOps. — Kief Morris*<!--END_QUOTE-->
 
 
 <br/>
