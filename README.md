@@ -164,7 +164,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<!--QUOTE-->🚀 *The cloud is just someone else's computer — secure it like it's yours.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Move fast, but don't break prod. — Every SRE ever*<!--END_QUOTE-->
 
 <br/>
 
