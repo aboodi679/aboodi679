@@ -164,7 +164,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<!--QUOTE-->🚀 *Observability is knowing what your system is doing without asking it directly.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Zero trust. Least privilege. Always. — Cloud Security Principle*<!--END_QUOTE-->
 
 <br/>
 
