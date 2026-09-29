@@ -1,5 +1,5 @@
 <div align="left">
-  <!--MOON-->🌕 Full Moon<!--END_MOON-->
+  <!--MOON-->🌖 Waning Gibbous<!--END_MOON-->
 </div>
 
 <div align="center">
