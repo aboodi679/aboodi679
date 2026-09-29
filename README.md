@@ -164,7 +164,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<!--QUOTE-->🚀 *Infrastructure as code is the foundation of DevOps. — Kief Morris*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *You build it, you run it. — Werner Vogels, AWS CTO*<!--END_QUOTE-->
 
 <br/>
 
