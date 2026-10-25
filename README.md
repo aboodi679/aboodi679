@@ -164,7 +164,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<!--QUOTE-->🚀 *The best runbook is one that runs itself.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Observability is knowing what your system is doing without asking it directly.*<!--END_QUOTE-->
 
 <br/>
 
