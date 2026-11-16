@@ -164,7 +164,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<!--QUOTE-->🚀 *Move fast, but don't break prod. — Every SRE ever*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *Terraform state is sacred. Back it up. — Unknown DevOps Engineer*<!--END_QUOTE-->
 
 <br/>
 
