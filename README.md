@@ -164,7 +164,7 @@ goal:    Solutions Architect
 
 <div align="center">
 
-<!--QUOTE-->🚀 *Every manual step is a future incident waiting to happen.*<!--END_QUOTE-->
+<!--QUOTE-->🚀 *CI/CD is not a luxury. It is the minimum bar for shipping safely.*<!--END_QUOTE-->
 
 <br/>
 
